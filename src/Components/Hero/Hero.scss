@@ -1,0 +1,61 @@
+.hero {
+  height: calc(100vh - 100px);
+  background: linear-gradient(180deg, #06222e, #164255);
+  //   border: 2px solid red;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+
+  .wrapper {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+
+    .textContainer {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+
+      .scrollimage {
+        height: 50px;
+      }
+      h2 {
+        color: #baa945;
+      }
+      h1 {
+        color: #f0e6df;
+        font-size: 60px;
+      }
+      button {
+        width: 120px;
+        background-color: transparent;
+        height: 40px;
+        border-radius: 15px;
+        border: 1px solid white;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .slidingtext {
+    position: absolute;
+    font-size: 50vh;
+    bottom: -120px;
+    white-space: nowrap;
+    color: white;
+    opacity: 0.09;
+    font-weight: bold;
+    width: 50%;
+  }
+
+  .imageContainer {
+    height: 100%;
+    top: 0;
+    position: absolute;
+    right: 0;
+  }
+}

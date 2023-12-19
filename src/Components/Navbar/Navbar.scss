@@ -1,0 +1,25 @@
+.navbar {
+  height: 100px;
+  z-index: 1;
+
+  .wraper {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    img {
+      height: 50px;
+      left: 20px;
+    }
+    .icons {
+      display: flex;
+      gap: 20px;
+    }
+    a {
+      color: grey;
+    }
+  }
+}
