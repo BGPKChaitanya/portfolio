@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Test = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
+
   const array = ["item", "item2", "item3", "item4", "item5"];
   const varients = {
     visible: (i) => ({

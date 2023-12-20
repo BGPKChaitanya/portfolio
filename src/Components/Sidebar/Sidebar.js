@@ -5,7 +5,6 @@ import Links from "./Links/Links";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
 
   const varients = {
     open: {
@@ -35,7 +34,7 @@ const Sidebar = () => {
       <button onClick={() => setOpen(!open)}>
         <svg height="23" width="23" viewBox="0 0 23 23">
           <motion.path
-            strokewidth="3"
+            strokeWidth="3"
             stroke="black"
             strokeLinecap="round"
             variants={{
@@ -44,7 +43,7 @@ const Sidebar = () => {
             }}
           />
           <motion.path
-            strokewidth="3"
+            strokeWidth="3"
             stroke="black"
             strokeLinecap="round"
             d="M 2 9.423 L 20 9.423"
@@ -54,7 +53,7 @@ const Sidebar = () => {
             }}
           />
           <motion.path
-            strokewidth="3"
+            strokeWidth="3"
             stroke="black"
             strokeLinecap="round"
             variants={{
